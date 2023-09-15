@@ -1,0 +1,148 @@
+.allura {
+    font-family: 'Allura' !important;
+}
+
+.acme {
+    font-family: 'Acme' !important;
+}
+
+.aclonica {
+    font-family: 'Aclonica'!important;
+}
+
+.Autour-One {
+    font-family: 'Autour One'!important;
+}
+
+.caligrafiti {
+    font-family: 'Calligraffitti' !important;
+}
+
+.palanquin {
+    font-family: 'Palanquin Dark' !important;
+}
+
+.amita {
+    font-family: 'Amita' !important;
+}
+
+.kalam {
+    font-family: 'Kalam'!important;
+}
+
+.langar {
+    font-family: 'Langar'!important;
+}
+
+.kavoon {
+    font-family: 'Kavoon';
+}
+
+.quote {
+    font-size: 30px;
+}
+
+.brand-logo {
+    padding-left: 30px !important;
+}
+
+.card {
+    margin: 20px !important;
+}
+
+.card-img {
+    height: 300px !important;
+}
+
+.s-card {
+    /* background: linear-gradient(to right, #9c27b0, #8ecdff); */
+    border-radius: 25px;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: 20px;
+    border: orange 3px solid;
+}
+
+.about {
+    border-bottom: 3px solid black;
+    margin: 20px !important;
+    padding: 40px !important;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.specials {
+    margin: 20px !important;
+    padding: 40px !important;
+}
+
+.border-line {
+    width: 60%;
+    border-bottom: 3px solid black;
+    margin: auto;
+}
+
+.food-img {
+    /* max-width: 400px !important;
+    max-height: 300px !important;
+    border-radius: 15px;
+    padding: 10px !important;
+    object-fit: contain; */
+    width: 100%;
+    object-fit: contain;
+    max-height: 400px;
+    margin-right: 5px;
+    transition: transform .45s;
+    padding: 10px;
+}
+
+.content-img {
+    padding: 20px !important;
+    margin: 30px !important;
+    border-bottom: 3px solid rgb(68, 66, 66);
+}
+
+.content-title {
+    text-decoration: underline;
+}
+
+.cart-title {
+    text-decoration: underline;
+    padding-left: 30px;
+}
+
+.proceed-btn {
+    padding-top: 30px !important;
+}
+
+.order-top {
+    border-bottom: 3px solid grey;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding: 20px;
+}
+
+.pro-cover {
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    display: flex !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+}
+
+main {
+    flex: 1 0 auto !important;
+}
+
+.food-text {
+    font-size: 20px !important;
+}
