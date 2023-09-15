@@ -7,7 +7,7 @@ with a organised backend.
 
 This is just a non usable web page for a spectacular front page coding enthusiasts are requested to use my code and develop their own restaurant managing app.
 
-![Screenshot (42)](https://github.com/codedreaming007/Restaurant-webpage/assets/130501173/bd967558-e793-4b0b-8fa6-83a375fff2fb)
+![Screenshot (42)](https://github.com/codedreaming007/Restaurant-webpage/assets/130501173/e3ed7fd4-42ba-455d-b171-f79e83afc8fa)
 ![Screenshot (37)](https://github.com/codedreaming007/Restaurant-webpage/assets/130501173/2fc2bd9c-4771-46af-aab0-c73316a7d208)
 ![Screenshot (38)](https://github.com/codedreaming007/Restaurant-webpage/assets/130501173/5c935a93-9807-4627-957d-2a24b090f353)
 ![Screenshot (39)](https://github.com/codedreaming007/Restaurant-webpage/assets/130501173/030c35fc-ba10-413c-900b-524efed9e126)
