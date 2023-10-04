@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT APP</title>
+    <!-- ICON -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- EEL -->
+    <script type="text/javascript" src="eel.js"></script>
+
+    <!-- EEL JS -->
+    <script>
+        eel.expose(f);
+
+        function f(id, ihtml) {
+            document.getElementById(id).innerHTML = ihtml
+        }
+    </script>
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Langar' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Palanquin Dark' rel='stylesheet'>
+
+</head>
+
+<body>
+    <main>
+        <!-- NAVBAR -->
+        <nav class="nav-extended orange lighten-1">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo amita">Paradiso del Cibo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="allura quote" href="">Good Food is Good Mood!!..</a></li>
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a class="aclonica active" href="#test1">HOME</a></li>
+                    <li class="tab"><a class="aclonica" href="#test2">INDIAN</a></li>
+                    <li class="tab"><a class="aclonica" href="#test3">AMERICAN</a></li>
+                    <li class="tab"><a class="aclonica" href="#test4">CONTINENTAL</a></li>
+                    <li class="tab"><a class="aclonica" href="#test5">CHINESE</a></li>
+                    <li class="tab"><a class="aclonica" href="#test6">DESSERT</a></li>
+                    <li class="tab"><a class="aclonica" href="#test7">BEVERAGES</a></li>
+                    <li class="tab right"><a class="aclonica" href="#test8">ORDERS & CART</a></li>
+                    <li class="tab right"><a class="aclonica" href="#test9">PROFILE</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- HOME PAGE -->
+        <div id="test1" class="home">
+
+            <!-- SLIDER CAROUSEL -->
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="./images/banner-6.jpg" alt="">
+                        <div class="caption center-align white-test">
+                            <h3 class="Autour-One">Milleur Restaurant</h3>
+                            <h5 class="aclonica light text-lighten-3">
+                                The best environment for eating you will ever get!!..
+                    </li>
+                    <li>
+                        <img src="./images/banner-1.jpg" alt="">
+                        <div class="caption center-align white-test">
+                            <h3 class="Autour-One">Burger King</h3>
+                            <h5 class="aclonica light text-lighten-3">
+                                Extra beef, hold the lettuce leaf.
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/banner-2.jpg" alt="">
+                        <div class="caption center-align white-test">
+                            <h3 class="Autour-One ">Fish curry</h3>
+                            <h5 class="aclonica light text-lighten-3">
+                                Fish curry is just a name but, macchar jhol is an emotion.
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/banner-3.jpg" alt="">
+                        <div class="caption center-align white-test">
+                            <h3 class="Autour-One">Northi ka Raja</h3>
+                            <h5 class="aclonica light text-lighten-3">
+                                Tadka ke saath khane ki sukoon hi alag hai.
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/banner-4.jpg" alt="">
+                        <div class="caption center-align white-test">
+                            <h3 class="Autour-One">Parota</h3>
+                            <h5 class="aclonica light text-lighten-3">
+                                tasty fasty.
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./images/banner-5.jpg" alt="">
+                        <div class="caption center-align white-test">
+                            <h3 class="Autour-One">Kings Slay</h3>
+                            <h5 class="aclonica light text-lighten-3">
+                                I don't get drunk, I get less Classy and more Fun.
+                            </h5>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+
+                <!-- ABOUT -->
+                <div class="container">
+                    <div class="section white center about">
+                        <h2 class="header acme">Paradiso del Cibo</h2>
+                        <div>
+                            <h5 class="kalam"> Paradiso del Cibo was started in 1671 by the great Lord Manchester who loved food. Its legacy was passed on to its generations and now it stands as the best restaurant in the whole universe. It has been rated the best restaurant
+                                by
+                                <i>"The Forbes"</i> in 2019.This place is the most awesome place to haveyour dinner with your friends, eating the classic Chicken wingsand French Fries, or date with a mistletoe over your head and a classic violin music
+                                with extravagant French Cuisine.This place has got all sorts of drinks and beverages you need for any time. This place has got a 500 year old scotch bottle still to be openedin its 500th year anniversary.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OUR SPECIALS -->
+                <div class="specials section white center">
+                    <h2 class="header title acme">Our Specials</h2>
+                    <div class="row">
+                        <div class="col l4 m12 s12">
+                            <div class="card z-depth-4">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator card-img" src="https://st.depositphotos.com/3147737/4982/i/950/depositphotos_49826809-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Biryani<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Biryani<i class="material-icons right">close</i></span>
+                                    <p>Biryani is a mixed rice dish originating among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat, and sometimes, in addition, eggs and/or vegetables such as potatoes in certain regional
+                                        varieties. Biryani is popular throughout the Indian subcontinent, as well as among its diaspora.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l4 m12 s12">
+                            <div class="card z-depth-4">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator card-img" src="https://images.deliveryhero.io/image/talabat/MenuItems/WhatsApp_Image_2020-_637431516851117211.jpeg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">The Smokey Burger<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">The Smokey Burger<i class="material-icons right">close</i></span>
+                                    <p>A hamburger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l4 m12 s12">
+                            <div class="card z-depth-4">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator card-img" src="https://i.pinimg.com/736x/87/c5/50/87c550e3a437a7217b01a82b2e2b03e1.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Roast Lamb Salad<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Roast Lamb Salad<i class="material-icons right">close</i></span>
+                                    <p>Succulent roastes lamb topped with cucumber, bell peppers, onions, avocado and dressed in a sweet sauce.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l4 m12 s12">
+                            <div class="card z-depth-4">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator card-img" src="https://images.chinahighlights.com/allpicture/2018/03/10725167158a4b8589bf3140_894x596.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Chowmein<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Chowmein<i class="material-icons right">close</i></span>
+                                    <p>"Chow mein" (炒面 chǎomiàn) is the Cantonese pronunciation of the Chinese characters above, which means stir-fried noodles. Generally speaking, this stir-fried dish consists of noodles, meat (usually chicken, beef, shrimp,
+                                        or pork), onions and celery..</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l4 m12 s12">
+                            <div class="card z-depth-4">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator card-img" src="https://images-gmi-pmc.edge-generalmills.com/eb339f7a-99bb-44e9-a729-d9788759659a.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Parfait<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Parfait<i class="material-icons right">close</i></span>
+                                    <p>Parfait describes two types of dessert. In France, where the dish originated, parfait is made by boiling cream</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l4 m12 s12">
+                            <div class="card z-depth-4">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator card-img" src="https://www.verywellfit.com/thmb/yzjwsswowYA-z_jc68PXTFA6F7I=/2000x1502/filters:fill(FFDB5D,1)/pinacoladas14-56a5c2f73df78cf77289ca1b.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Piña colada<i class="material-icons right">more_vert</i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Piña colada<i class="material-icons right">close</i></span>
+                                    <p>The piña colada is a cocktail made with rum, cream of coconut or coconut milk, and pineapple juice, usually served either blended or shaken with ice. It may be garnished with either a pineapple wedge, maraschino cherry,
+                                        or both. There are two versions of the drink, both originating in Puerto Rico</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-line"></div>
+
+                <!-- REVIEWS -->
+                <section class="freviews">
+                    <div class="section white center">
+                        <h3 class="header acme">
+                            Reviews about Paradiso del Cibo
+                        </h3>
+                        <div class="carousel myreviews" style="margin-bottom: 30px;">
+                            <a href="#" class="carousel-item">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="card-panel orange lighten-1" style="height: 300px; width: 250px;">
+                                            <span class="white-text">
+                                        Sheldon
+                                    </span>
+                                            <br>
+                                            <br>
+                                            <p class="white-text small">You will get the best food here!!..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="card-panel orange" style="height: 300px; width: 250px;">
+                                            <span class="white-text">
+                                        Ted
+                                    </span>
+                                            <br>
+                                            <br>
+                                            <p class="white-text small">I love this restaurant sooo much!!.. The environment and food here is awesome.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="card-panel orange" style="height: 300px; width: 250px;">
+                                            <span class="white-text">
+                                        Niklaus
+                                    </span>
+                                            <br>
+                                            <br>
+                                            <p class="white-text small">This is the best restaurant i have been in my life!!.. The food here melts into my mouth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="card-panel orange" style="height: 300px; width: 250px;">
+                                            <span class="white-text">
+                                        Penny
+                                    </span>
+                                            <br>
+                                            <br>
+                                            <p class="white-text small">I love the drinks here so much!!.. It makes me forget all my worries.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="card-panel orange" style="height: 300px; width: 250px;">
+                                            <span class="white-text">
+                                        Rebecca
+                                    </span>
+                                            <br>
+                                            <br>
+                                            <p class="white-text small">The food here is ravishing!!.. I always come down here.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="card-panel orange" style="height: 300px; width: 250px;">
+                                            <span class="white-text">
+                                        Aurora
+                                    </span>
+                                            <br>
+                                            <br>
+                                            <p class="white-text small">The food we recieve here takes us straight up to heaven and brings us back!!.. IT is such a delight.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="carousel-item">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="card-panel orange" style="height: 300px; width: 250px;">
+                                            <span class="white-text">
+                                        Elena
+                                    </span>
+                                            <br>
+                                            <br>
+                                            <p class="white-text small">This place is the best to have a date!!.. To find love go to this restaurant.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <div class="border-line"></div>
+
+
+                <!-- SERVICES -->
+                <div class="services section white center" style="margin-top: 40px;">
+                    <h2 class="header acme" style="margin-bottom: 60px !important;">Reason for our Fame</h2>
+                    <div class="row">
+                        <div class="col s12 m4 l4 center">
+                            <div class="s-card z-depth-5">
+                                <i class="large material-icons orange-text text-lighten-1">local_dining</i>
+                                <h5 class="center orange-text text-lighten-1">Best Quality of Food</h5>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 center">
+                            <div class="s-card z-depth-5">
+                                <i class="large material-icons orange-text text-lighten-1">wc</i>
+                                <h5 class="center orange-text text-lighten-1">Special Booking for dates</h5>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4 center">
+                            <div class="s-card z-depth-5">
+                                <i class="large material-icons orange-text text-lighten-1">watch_later</i>
+                                <h5 class="center orange-text text-lighten-1">24/7 Available!!..</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- INDIAN -->
+            <div id="test2">
+                <h1 class="aclonica header black-text center content-title">Indian Course</h1>
+                <p class="aclonica black-text center">Yet to Update the menu. Thank you for reaching us :).</p>
+                <div id="Indian"></div>
+            </div>
+
+            <!-- AMERICAN -->
+            <div id="test3">
+                <h1 class="aclonica header black-text center content-title">American Course</h1>
+                <p class="aclonica black-text center">Yet to Update the menu. Thank you for reaching us :).</p>
+                <div id="American"></div>
+            </div>
+
+            <!-- CONTINENTAL -->
+            <div id="test4">
+                <h1 class="aclonica header black-text center content-title">Continental Course</h1>
+                <p class="aclonica black-text center">Yet to Update the menu. Thank you for reaching us :).</p>
+                <div id="Continental"></div>
+            </div>
+
+            <!-- CHINESE -->
+            <div id="test5">
+                <h1 class="aclonica header black-text center content-title">Chinese Course</h1>
+                <p class="aclonica black-text center">Yet to Update the menu. Thank you for reaching us :).</p>
+                <div id="Chinese"></div>
+            </div>
+
+            <!-- DESSERT -->
+            <div id="test6">
+                <h1 class="aclonica header black-text center content-title">Dessert</h1>
+                <p class="aclonica black-text center">Yet to Update the menu. Thank you for reaching us :).</p>
+                <div id="Dessert"></div>
+            </div>
+
+            <!-- BEVERAGES -->
+            <div id="test7">
+                <h1 class="aclonica header black-text center content-title">Beverage</h1>
+                <p class="aclonica black-text center">Yet to Update the menu. Thank you for reaching us :).</p>
+                <div id="Beverage"></div>
+            </div> 
+
+            <!-- ORDERS & CART -->
+            <div id="test8">
+                <div class="row order-top">
+                    <div class="col l6 m6 s12">
+                        <h2 class="black-text cart-title Autour-One">Your Cart</h2>
+                        <h6 class="grey-text Autour-One"><i>Check your order price and proceed to checkout bill to finish the purchase!!..</i></h6>
+                    </div>
+                    <div class="col l6 m6 s12 center-align proceed-btn">
+
+                        <button data-target="modal7" class="btn-large orange waves-effect waves-light center modal-trigger"><i class="material-icons right">send</i> Proceed to Checkout Bill</button>
+                    </div>
+                </div>
+                <div id="order-content">
+                </div>
+            </div>
+
+            <!-- PROFILE -->
+            <div id="test9">
+                <div id="profile" class="container">
+                </div>
+            </div>
+
+            <!-- MODALS -->
+            <div class="infomodal">
+                <!-- Login modal -->
+                <div class="modal" id="modal1">
+                    <div class="modal-content">
+                        <h4 class="info-modal-heading orange-text">Login</h4>
+                        <div class="row">
+                            <form id="loginform" class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input placeholder="Username" name="username-login" id="username-login" type="text" class="validate">
+                                        <label for="username-login">Username</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input placeholder="Password" name="password-login" id="password-login" type="password" class="validate">
+                                        <label for="password-login">Password</label>
+                                    </div>
+                                </div>
+                                <button class="btn modal-close waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                </div>
+
+                <!-- Register Modal -->
+                <div class="modal modal-fixed-footer" id="modal2">
+                    <div class="row">
+                        <div class="modal-content">
+                            <h4 class="info-modal-heading orange-text">Register Now</h4>
+                            <br>
+                            <form id="register" class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input id="first_name" name="first_name" type="text" class="validate">
+                                        <label for="first_name">First Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="last_name" name="last_name" type="text" class="validate">
+                                        <label for="last_name">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="email" name="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="username" name="username" type="text" class="validate">
+                                        <label for="username">Username</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="password" name="password" type="password" class="validate">
+                                        <label for="password">Password</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="phnum" name="phnum" type="text" class="validate">
+                                        <label for="phnum">Phone Number</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="location" name="location" type="text" class="validate">
+                                        <label for="location">Location</label>
+                                    </div>
+                                </div>
+                                <button class="btn modal-close waves-effect waves-light" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Add to cart modal -->
+                <div class="modal" id="modal3">
+                    <div class="modal-content">
+                        <h5 id="cart-mess" class="Autour-One">Item sucessfully added to cart!!..</h5>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                </div>
+
+                <!-- Change password modal -->
+                <div class="modal" id="modal4">
+                    <div class="modal-content">
+                        <h4 class="info-modal-heading orange-text">Change Password</h4>
+                        <div class="row">
+                            <form id="cpass" class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input placeholder="Username" name="user-name" id="user-name" type="text" class="validate">
+                                        <label for="user-name">Username</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input placeholder="Current Password" name="c-password" id="c-password" type="password" class="validate">
+                                        <label for="c-password">Current Password</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input placeholder="New Password" name="n-password" id="n-password" type="password" class="validate">
+                                        <label for="n-password">New Password</label>
+                                    </div>
+                                </div>
+                                <button class="btn modal-close waves-effect waves-light" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                </div>
+
+                <!-- DB info modal 
+                <div id="db-chk">
+                <div id="modal5" class="modal">
+                    <div class="modal-content">
+                        <h4 class="info-modal-heading orange-text">Enter Database Info</h4>
+                        <h6><i>Please enter your Mysql information to start the application!!..</i></h6>
+                        <br><br>
+                        <div class="row">
+                            <form id="dbform" class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <input placeholder="Mysql Username" name="username-db" id="username-db" type="text" class="validate">
+                                        <label for="username-db">Mysql Username</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input placeholder="Mysql Password" name="password-db" id="password-db" type="password" class="validate">
+                                        <label for="password-db">Mysql Password</label>
+                                    </div>
+                                </div>
+                                <button class="btn modal-close waves-effect waves-light" type="submit" name="action">Submit<i class="material-icons right">send</i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>-->
+            </div>
+
+            <!-- DB Error modal -->
+            <div class="modal" id="modal6">
+                <div class="modal-content">
+                    <h4 class="info-modal-heading orange-text">Database Connection Error</h4>
+                    <br><br>
+                    <h6 class="red-text">The username password you have entered for database is incorrect!!.. Please enter correct details to start application.</h6>
+                    <br><br>
+                    <button onclick="togModal5()" class="btn modal-close waves-effect waves-light" name="action">Connect Again</button>
+                </div>
+            </div>
+
+            <!-- Checkout Modal -->
+            <div class="modal" id="modal7">
+                <div class="modal-content">
+                    <h4 class="info-modal-heading orange-text Autour-One">You have come to the end!!..</h4>
+                    <br><br>
+                    <h5 class="kalam">Since this is a student school project we have not connected you up for payment. If you liked this application then let us know at paradisodelcibo@gmail.com !!..</h5>
+                    <h4 class="center orange-text Autour-One">Thank you!!..</h4>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="right modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <section class="footer orange lighten-1">
+        <footer class="footer-one">
+            <div class="container footer-main">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h4 class="white-text acme">Project by:-</h4>
+                        <p class="white-text"></p>
+                        <p class="white-text"></p>
+                        <p class="white-text"></p>
+                    </div>
+                    <div class="col l6 s12">
+                        <h4 class="white-text acme">Social Media</h4>
+                        <ul>
+                            <li><a href="#" class="white-text">Linkedin : @Paradiso_del_Cibo</a></li>
+                            <li><a href="#" class="white-text">Facbook : @ParadisoDelCibo</a></li>
+                            <li><a href="#" class="white-text">Instagram : @TheParadiseofFood</a></li>
+                            <li><a href="#" class="white-text">Email : customer service@paradisodelcibo.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row footer-two">
+                <div class="col l6 s12">
+                    <p class="white-text acme">&copy;<i> 2021 All rights reserved</i></p>
+                </div>
+                <div class="col l6 s12">
+                    <p class="white-text right acme"><i>This is just a project work. All content are not real.</i></p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom JS -->
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.slider').slider({
+                full_width: true,
+                height: 600,
+            });
+            $('.tabs').tabs();
+            $('.myreviews').carousel({
+                numVisible: 7,
+                shift: 55,
+                padding: 55,
+            })
+            $('.modal').modal();
+            togModal5();
+        });
+
+        function toggleModal() {
+            var instance = M.Modal.getInstance($('#modal1'))
+            instance.open();
+        }
+
+        function togModal5() {
+            var instance = M.Modal.getInstance($('#modal5'))
+            instance.open();
+        }
+
+        function togModal6() {
+            var instance = M.Modal.getInstance($('#modal6'))
+            instance.open();
+        }
+        eel.expose(togModal6);
+    </script>
+
+    <script>
+        // Login form
+        let form = document.getElementById('loginform');
+        form.addEventListener('submit', (login) => {
+            login.preventDefault();
+            data = {
+                username: form.elements['username-login'].value,
+                password: form.elements['password-login'].value,
+            }
+            eel.user_login(data)
+        });
+        // Change password form
+        let cpass = document.getElementById('cpass');
+        cpass.addEventListener('submit', (changepass) => {
+            changepass.preventDefault();
+            data = {
+                c_password: cpass.elements['c-password'].value,
+                n_password: cpass.elements['n-password'].value,
+                username: cpass.elements['user-name'].value,
+            }
+            eel.change_password(data)
+        });
+        // Register Form
+        let reg = document.getElementById('register');
+        reg.addEventListener('submit', (register) => {
+            register.preventDefault();
+            data = {
+                username: reg.elements['username'].value,
+                firstname: reg.elements['first_name'].value,
+                lastname: reg.elements['last_name'].value,
+                password: reg.elements['password'].value,
+                email: reg.elements['email'].value,
+                phnum: reg.elements['phnum'].value,
+                location: reg.elements['location'].value,
+            }
+            eel.user_register(data)
+        });
+        // DB Form
+        let db = document.getElementById('dbform');
+        db.addEventListener('submit', (e) => {
+            e.preventDefault();
+            data = {
+                mysql_username: db.elements['username-db'].value,
+                mysql_password: db.elements['password-db'].value,
+            }
+            eel.db_conn(data);
+        })
+        let add_cart = (id) => {
+            eel.add_to_cart(id);
+        }
+        let remove_cart = (id) => {
+            eel.remove_from_cart(id);
+        }
+    </script>
+</body>
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</html>
